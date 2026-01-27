@@ -1,0 +1,1 @@
+add_library(clay clay_renderer_SDL3.c clay_renderer_SDL3.h clay.h)

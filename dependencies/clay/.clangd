@@ -1,0 +1,9 @@
+CompileFlags:
+    Add: [
+		-isystem,
+		../SDL3/include,
+		-isystem,
+		../SDL_image/include,
+		-isystem,
+		../SDL_ttf/include,
+    ]

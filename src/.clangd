@@ -1,0 +1,22 @@
+CompileFlags:
+    Add: [
+		-isystem,
+		../dependencies/SDL3/include,
+		-isystem,
+		../dependencies/SDL_image/include,
+		-isystem,
+		../dependencies/SDL_ttf/include,
+		-isystem,
+		../dependencies/clay,
+    ]
+---
+If:
+    PathMatch: [
+        .*\.cpp,
+        .*\.h,
+        .*\.hpp,
+    ]
+CompileFlags:
+	Add: [
+		-std=c++20,
+	]
